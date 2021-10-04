@@ -1,0 +1,114 @@
+[
+	{
+		"id": 1,
+		"title": "MODERN HTML & CSS FROM THE BEGINNING",
+		"star": 4.7,
+		"created": "Bradd Cooper",
+		"price": 13.99,
+		"img": "https://miro.medium.com/max/792/1*lJ32Bl-lHWmNMUSiSq17gQ.png",
+		"info": "Build modern responsive websites & UIs with HTML5, CSS3 & Sass! Learn Flex & CSS Grid",
+		"review": "Amazing course!!!. It was amazing experience to learn HTML & CSS under Brad cooper teaching. In 2-3 points you have to search some stuff at another places also so that you can have better understating.",
+		"learn": {
+			"1": "Build Multiple High Quality Website & UI Projects",
+			"2": "HTML5 Semantic Layout & CSS Fundamentals",
+			"3": "Flexbox & CSS Grid Projects",
+			"4": "CSS Variables, Transitions, Dropdowns, Overlays & More"
+		}
+	},
+	{
+		"id": 2,
+		"title": "MODERN JS FROM THE BEGINNING",
+		"star": 4.5,
+		"created": "Alan Toppings",
+		"price": 14.99,
+		"img": "https://miro.medium.com/max/720/1*LjR0UrFB2a__5h1DWqzstA.png",
+		"info": "Learn and build projects with pure JavaScript (No frameworks or libraries)",
+		"review": "Great content, for pro and all beginners. This is another example of why Brad is so successful as teacher. Do not waste your time looking at other tutorials.",
+		"learn": {
+			"1": "Modular learning sections & 10 real world projects with pure JavaScript",
+			"2": "Master the DOM (document object model) WITHOUT jQuery",
+			"3": "Learn JavaScript Patterns",
+			"4": "Regular expressions, error handling, localStorage & more"
+		}
+	},
+	{
+		"id": 3,
+		"title": "NODE.JS API MASTERCLASS",
+		"star": 4.6,
+		"created": "Ashley Higgs",
+		"price": 13.99,
+		"img": "https://iconape.com/wp-content/png_logo_vector/nodejs.png",
+		"info": "Node.js API Masterclass With Express & MongoDB",
+		"review": "This is a project based course where we build an extensive, in-depth backend API for DevCamper, a bootcamp directory app. We will start from scratch and end up with a professional deployed API with documentation.",
+		"learn": {
+			"1": "Real World Backend RESTful API For Bootcamp Directory App",
+			"2": "Advanced Mongoose Queries",
+			"3": "API Documentation & Deployment",
+			"4": "API Security (NoSQL injection, XSS protection, Rate Limiting)"
+		}
+	},
+	{
+		"id": 4,
+		"title": "REACT FRONT TO BACK",
+		"star": 4.3,
+		"created": "Richard Hogg",
+		"price": 14.99,
+		"img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSYpt5QVGdT8pPNWD8WaKH0HH8llyuOh78Ig&usqp=CAU",
+		"info": "Learn Modern React 16.8+ Including Hooks, Context API, Full Stack MERN & Redux By Building Real Life Projects",
+		"review": "This is a good course with beginner friendly projects. The only problem that I had was that sometimes small details were overlooked, which doesn't get in the way of learning very much.",
+		"learn": {
+			"1": "Learn Modern React By Building 3 Projects",
+			"2": "Suitable For Both Beginners & Intermediate React Developers",
+			"3": "Learn Redux From Scratch",
+			"4": "Full Stack Development with MERN (MongoDB, Express, React, Node)"
+		}
+	},
+	{
+		"id": 5,
+		"title": "BOOTSTRAP FROM SCRATCH",
+		"star": 4.7,
+		"created": "Jack Richard",
+		"price": 15.99,
+		"img": "https://f5-studio.com/wp-content/uploads/2019/01/what-is-bootstrap-logo.png",
+		"info": "Master Bootstrap 5 and build 5 real world themes while learning HTML5 semantics & CSS3",
+		"review": "f I could give this course AND instructor 20 stars I would! This course is thorough in explaining the elements of bootstrap.I love that before you start coding projects he walks you through EACH bootstrap feature",
+		"learn": {
+			"1": "Learn and create amazing high quality Bootstrap 4 themes and UIs",
+			"2": "Learn semantic HTML5 & modern CSS3 techniques",
+			"3": "Learn to compile Sass in the easiest way possible using a GUI",
+			"4": "earn the Bootstrap 4 utilities, classes, components & JS widgets "
+		}
+	},
+	{
+		"id": 6,
+		"title": "MERNSTACK FRONT TO BACK",
+		"star": 4.7,
+		"created": "Bradd Morrison",
+		"price": 13.99,
+		"img": "https://cdn.dribbble.com/users/6223158/screenshots/15158911/mern_stack_institute_in_delhi_ncr_.png",
+		"info": "Build and deploy a social network with Node.js, Express, React, Redux & MongoDB.",
+		"review": "This is a great course and Brat is a great professor. He explains very well every feature that he implements in the project and what you learn you can apply in real projects, because this is 100% like a real project.",
+		"learn": {
+			"1": "Integrate React with an Express backend in an elegant way",
+			"2": "Create an extensive backend API with Express",
+			"3": "Use Stateless JWT authentication practices",
+			"4": "React Hooks, Async/Await & modern practices"
+		}
+	},
+	{
+		"id": 7,
+		"title": "FULL STACK WEB DEVELOPMENT",
+		"star": 4.2,
+		"created": "Allison Martell",
+		"price": 21.99,
+		"img": "https://i.pinimg.com/550x/be/c3/2f/bec32ffc65cf051af7bf2c71a9af424d.jpg",
+		"info": "Learn full stack web development with HTML5, CSS , Bootstrap 4, Javascript, ES6, VueJs, Node.Js, PostgreSQL & More",
+		"review": "very practical and hands on. Although some things could be explained in a bit more depth, the breadth of this course requires a quick pace. The final project does a good job of blending most of the technologies together for a good review.",
+		"learn": {
+			"1": "Create A Fully Responsive News Portal Using Bootstrap",
+			"2": "Build A Simple Interest Calculator Using JavaScript",
+			"3": "Build Your Own Portfolio Site Using HTML & CSS",
+			"4": "Learn PostgreSQL Database From Scratch To Store Web Application Data"
+		}
+	}
+]
