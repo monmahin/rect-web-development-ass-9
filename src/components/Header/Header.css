@@ -1,0 +1,25 @@
+.containers {
+  position: relative;
+  /* max-width: fit-content; */
+  margin: 0 auto; /* Center it */
+}
+
+.content {
+  position: absolute; /* Position the background text */
+  top: 50px; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 100%; /* Full width */
+  height: 600px;
+  padding: 150px 100px; /* Some padding */
+}
+.content h1 {
+  font-weight: 500;
+}
+.content p {
+  max-width: 800px;
+  font-weight: 700;
+  font-size: 5rem;
+  line-height: 70px;
+}

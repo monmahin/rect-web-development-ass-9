@@ -9,16 +9,17 @@ import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import CourseInfo from './components/CourseInfo/CourseInfo';
 import HomeInfo from './components/HomeInfo/HomeInfo';
+import NotFound from './components/NotFound/NotFound';
+import Contact from './components/Contact/Contact';
 
 
 function App() {
   return (
-    <div className="App">
+    <div className="Apps">
      <Router>
-        <Header/>
-        <Home/>
+        <Header />
         
-        
+      
         <Switch>
           <Route path="/about">
             <About/>
@@ -29,15 +30,21 @@ function App() {
           <Route exact path="/">
             <Home/>
           </Route>
-          <Route exact path="/home">
+          <Route path="/home">
             <Home/>
           </Route>
           <Route exact path="/home-info">
             <HomeInfo/>
           </Route>
+          <Route exact path="/contact">
+            <Contact/>
+          </Route>
          
           <Route  path="/home-info/:homeId">
             <CourseInfo/>
+          </Route>
+          <Route path="*">
+            <NotFound/>
           </Route>
         </Switch>
         <Footer/>

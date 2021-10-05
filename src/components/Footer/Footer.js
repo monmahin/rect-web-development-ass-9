@@ -14,7 +14,7 @@ const Footer = () => {
     
     
     return (
-        <div className="bg-dark text-white py-3 fixed-bottom">
+        <div className="bg-dark text-center text-white py-3 fixed-bottoms">
             <h1>Follow Us</h1>
             <div className="d-flex justify-content-evenly fs-1 my-2">
             <small>{facebook}</small>
@@ -23,8 +23,8 @@ const Footer = () => {
             <small>{instagram}</small>
             <small>{github}</small>
             </div>
-            <small>{copyRight}
-                <  span className="text-uppercase ms-2">All rights reserved</span></small>
+            <small className="text-danger">{copyRight}
+                < span className="text-uppercase mx-2">All rights reserved</span></small>
         </div>
     );
 };

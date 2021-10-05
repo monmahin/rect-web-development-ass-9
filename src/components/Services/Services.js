@@ -12,8 +12,10 @@ const Services = () => {
         .then(data=>setServices(data))
     },[])
     return (
-        <div>
-            <h2>Services: {services.length}</h2>
+        <div className="my-5">
+            <br />
+            <br />
+           
             <Container fluid>
             <Row xs={1} md={2} className="g-4 mx-auto">
                 {

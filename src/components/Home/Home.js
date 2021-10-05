@@ -17,11 +17,13 @@ const Home = () => {
     
     return (
         <div className="my-5">
-            
+            <h1
+             className="bg-danger text-center text-white py-5 text-uppercase ">
+                Popular Web Design Courses</h1>
             <Container fluid>
             <Row xs={1} md={3} className="g-4 mx-auto my-5">
                 {
-                    courses.map(course => <HomeInfo
+                    courses.slice(0,3).map(course => <HomeInfo
                         key={course.id}
                         
                         course={course}
