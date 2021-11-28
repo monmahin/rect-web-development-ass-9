@@ -12,7 +12,6 @@ import HomeInfo from './components/HomeInfo/HomeInfo';
 import NotFound from './components/NotFound/NotFound';
 import Contact from './components/Contact/Contact';
 
-
 function App() {
   return (
     <div className="Apps">
@@ -43,6 +42,9 @@ function App() {
           <Route  path="/home-info/:homeId">
             <CourseInfo/>
           </Route>
+          {/* <Route path="/person">
+            <Person></Person>
+          </Route> */}
           <Route path="*">
             <NotFound/>
           </Route>

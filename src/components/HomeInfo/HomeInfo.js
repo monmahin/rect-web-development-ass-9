@@ -2,14 +2,17 @@ import React from 'react';
 import { Card, Col } from 'react-bootstrap';
 import { useHistory } from 'react-router';
 
+
 const HomeInfo = (props) => {
   const {id, img, title, info } = props.course
-  
+ 
   const history=useHistory()
     const url =`/home-info/${id}`
     const handleCourseInfo = () => {
-        history.push(url)
-    }
+      history.push(url)
+     
+  }
+  
 
   
     return (
